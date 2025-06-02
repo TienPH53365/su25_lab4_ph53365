@@ -13,7 +13,7 @@ def dem_tan_suat_tu(text):
 def main():
     st.title("Ứng dụng đếm từ và đọc tần suất")
 
-    tab1, tab2 = st.tabs(["📄 Đếm từ từ file văn bản", "📁 Đọc từ file tần suất"])
+    tab1, tab2 = st.tabs([" Đếm từ từ file văn bản", " Đọc từ file tần suất"])
 
     with tab1:
         st.header("1. Tải lên file văn bản (.txt)")
